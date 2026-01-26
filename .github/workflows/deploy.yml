@@ -19,4 +19,11 @@ jobs:
           username: ubuntu
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           port: ${{ secrets.PORT }}
-          script: ls
+          script: |
+            ls
+            cd cicd-test-server
+            git pull
+            ls
+            npm install
+            npm run build
+            npm run start
