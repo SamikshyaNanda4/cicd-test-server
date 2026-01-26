@@ -36,12 +36,12 @@ export default function Home() {
 
         {/* Year Badge */}
         <div className="inline-block bg-[#000080] text-white px-6 py-2 rounded-full text-xl font-semibold mb-6">
-          76th Republic Day - 2025
+          77th Republic Day - 2026
         </div>
 
         {/* Subtitle */}
         <p className="text-2xl md:text-3xl text-gray-700 mb-4">
-          Jai Hind!
+          Jai Hind! Bo Pile
         </p>
 
         {/* Message */}
@@ -56,7 +56,7 @@ export default function Home() {
             Warm wishes from
           </p>
           <p className="text-2xl font-bold bg-gradient-to-r from-[#FF9933] via-[#000080] to-[#138808] bg-clip-text text-transparent">
-            Samikshya Nanda
+            Samikshya Nanda & Pratik 
           </p>
         </div>
 
