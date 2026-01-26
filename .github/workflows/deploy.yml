@@ -22,6 +22,10 @@ jobs:
           script: |
             ls
             cd cicd-test-server
+            # Load NVM properly
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+            [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
             eval "$(ssh-agent -s)"
             echo "${{ secrets.SSH_PASS }}" | ssh-add /home/ubuntu/.ssh/id_ed25519
             git pull
