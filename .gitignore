@@ -14,7 +14,8 @@
 /coverage
 
 # next.js
-/.next/
+#Removed .next as did not want to build it on the EC2
+# /.next/ 
 /out/
 
 # production
