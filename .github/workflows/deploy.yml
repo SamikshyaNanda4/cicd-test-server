@@ -28,6 +28,7 @@ jobs:
             [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
             eval "$(ssh-agent -s)"
             echo "${{ secrets.SSH_PASS }}" | ssh-add /home/ubuntu/.ssh/id_ed25519
+            git stash
             git pull
             ls
             # Start or restart app with PM2 here
