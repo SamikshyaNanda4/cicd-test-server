@@ -30,7 +30,7 @@ jobs:
             echo "${{ secrets.SSH_PASS }}" | ssh-add /home/ubuntu/.ssh/id_ed25519
             git pull
             ls
-            # Start or restart app with PM2
+            # Start or restart app with PM2 here
             pm2 delete nextjs-3000 || true
             pm2 start npm --name "nextjs-3000" -- start
             pm2 save
