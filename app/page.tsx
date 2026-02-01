@@ -56,7 +56,7 @@ export default function Home() {
             Warm wishes from
           </p>
           <p className="text-2xl font-bold bg-gradient-to-r from-[#FF9933] via-[#000080] to-[#138808] bg-clip-text text-transparent">
-            Samikshya Nanda 
+            Sam Shivam Pritam
           </p>
         </div>
 
