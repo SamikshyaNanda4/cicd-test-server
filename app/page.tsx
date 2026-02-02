@@ -41,7 +41,7 @@ export default function Home() {
 
         {/* Subtitle */}
         <p className="text-2xl md:text-3xl text-gray-700 mb-4">
-          Jai Hind!
+          Jai Hind !
         </p>
 
         {/* Message */}
